@@ -2,7 +2,7 @@ import React, {useState, useContext, useEffect, useCallback} from 'react'
 import btc from '../../assets/btc.png'
 import { CoinMarketContext } from '../../context/context'
 import CMCtableHeader from './CMCtableHeader';
-import CMCtableRow from './cmcTableRow'
+import CMCtableRow from './CMCTableRow'
 
 const CMCTable = () => {
     let {getTopTenCoins} = useContext(CoinMarketContext);
